@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+/* Add your styling here */
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .message {
+    margin-top: 20px;
+    text-align: center;
+  }
+  

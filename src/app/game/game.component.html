@@ -1,0 +1,8 @@
+<h1>Tic-Tac-Toe</h1>
+
+<app-board [cells]="cells" (cellClick)="onCellClick($event)"></app-board>
+
+<div class="message">
+  <p>Current player: {{ currentPlayer }}</p>
+  <button (click)="restartGame()">Restart Game</button>
+</div>
